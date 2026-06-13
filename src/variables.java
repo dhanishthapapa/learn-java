@@ -15,7 +15,10 @@ public class variables {
         System.out.println("\nsize "+size);
         Date today=new Date();
         System.out.print("time: " +today.getHours()+":"+today.getMinutes()+":"+today.getSeconds());
-            System.out.println("\ntoday is "+today);
+        System.out.println("\ntoday is "+today);
+        int bankBalance=1000;
+        System.out.println("bankBalance "+bankBalance);
+        
 
     }
 }
