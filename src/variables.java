@@ -18,7 +18,5 @@ public class variables {
         System.out.println("\ntoday is "+today);
         int bankBalance=1000;
         System.out.println("bankBalance "+bankBalance);
-        
-
     }
 }
