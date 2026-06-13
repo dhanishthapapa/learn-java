@@ -11,7 +11,8 @@ public class variables {
        System.out.println("grade "+grade);
        float ok=0.987f;
         System.out.printf("float value %.2f ",ok); 
- 
+        int size=94;
+        System.out.println("\nsize "+size);
         Date today=new Date();
         System.out.print("time: " +today.getHours()+":"+today.getMinutes()+":"+today.getSeconds());
             System.out.println("\ntoday is "+today);
