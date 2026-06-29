@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class array {
     public static void main(String[] args) {
-
+/*
         // predefined array
         int[] num = new int[10];
         for (int i = 0; i < 10; i++) {
@@ -49,7 +49,15 @@ public class array {
         for (int i = 0; i < 10; i++) {
             System.out.print(sum[i] + " ");
         }
-       
+       */
+      Scanner sc=new Scanner(System.in);
+      int size=sc.nextInt();
+      int[] arr =new int[size];
+      for(int i=0;i<size;i++){
+          arr[i]=sc.nextInt();
+      }
+      int sum=(size/2)-1;
+      System.out.println("sum of middle elements: "+(arr[sum]));
         sc.close();
     }
 }
