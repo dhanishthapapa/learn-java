@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 class Bank{
-        String customerName;
-        int accountNumber;
-        String accountType;
-        double balance;
+       ArrayList<Bank> customerName = new ArrayList<>();
+       ArrayList<Bank> accountNumber = new ArrayList<>();
+       ArrayList<Bank> accountType = new ArrayList<>();
+       ArrayList<Bank> balance = new ArrayList<>();;
 }
 public class bankproject {
 
@@ -69,7 +70,7 @@ public class bankproject {
         Scanner bank=new Scanner(System.in);
         //creating oject for bank class
         Bank b=new Bank();
-        //create object for bankproject class
+        //create object for bankproject class to call the method in the same class
         bankproject obj= new bankproject();
         System.out.println("Welcome to the bank");
         System.out.println("===== BANK MANAGEMENT SYSTEM =====\r\n" + //
