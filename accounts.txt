@@ -1,0 +1,2 @@
+sri,2000,saving,3000.0
+kavusi,35746,saving,100000.0
