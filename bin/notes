@@ -1,0 +1,29 @@
+memory management
+*Memory management is the process of allocating (giving) and deallocating
+ (freeing) memory while a Java program is running.
+ *Java does this automatically using the JVM (Java Virtual Machine) and
+  the Garbage Collector (GC).
+
+                  JVM Memory
+        +-----------------------+
+        |       Heap            |  <-- Objects, Arrays
+        +-----------------------+
+        |       Stack           |  <-- Method calls, Local variables
+        +-----------------------+
+        | Method Area (Meta)    |  <-- Class      information, Static variables
+        +-----------------------+
+        | PC Register           |
+        +-----------------------+
+        | Native Method Stack   |
+        +-----------------------+
+
+1. Stack Memory
+Stores local variables.
+Stores method calls.
+Each method gets its own stack frame.
+Memory is automatically removed when the method finishes.
+2. Heap Memory
+Stores objects and arrays.
+Shared by all threads.
+Managed by the Garbage Collector.
+the memory allowgation is not continues
