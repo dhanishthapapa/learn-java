@@ -196,7 +196,7 @@ void loadAccounts() {
 }
     public static void main(String []args){
         Scanner bank=new Scanner(System.in);
-        //creating oject for bank class use to get the wheather the user has account or not and to get the details of the user
+        //creating object for bank class use to get the wheather the user has account or not and to get the details of the user
         Bank b=new Bank();
         //create object for bankproject class to call the method in the same class
         bankproject obj= new bankproject();

@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "oopsconcepts.Main",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "co",
+            "request": "launch",
+            "mainClass": "oopsconcepts.co",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Main",
             "projectName": "javalearn_6eeadb09"
         },

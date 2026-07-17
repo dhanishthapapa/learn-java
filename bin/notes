@@ -27,3 +27,137 @@ Stores objects and arrays.
 Shared by all threads.
 Managed by the Garbage Collector.
 the memory allowgation is not continues
+TWO POINTERS
+1)converging pointers
+ converging pointers are used to compare the char of the string 
+    abcdcba
+    ^     ^
+    abcdcba
+     ^   ^
+A converging pointer is a technique where two pointers start from opposite ends of an array or string and move toward each other until they meet.
+
+code:
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int[] arr = {1,2,3,4,5,6};
+
+        int target = 9;
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while(left < right){
+
+            int sum = arr[left] + arr[right];
+
+            if(sum == target){
+                System.out.println(arr[left] + " " + arr[right]);
+                break;
+            }
+            else if(sum < target){
+                left++;
+            }
+            else{
+                right--;
+            }
+        }
+    }
+}
+
+
+2)parallel pointers
+In the parallel pointer technique, both pointers start from the same side (usually the left) and move in the same direction.
+It is commonly used for:
+
+Removing duplicates
+Sliding window problems
+Partitioning arrays
+Fast and slow pointer problems
+
+slow
+ ↓
+fast
+ ↓
+[2, 7, 11, 15, 20]
+
+slow fast
+ ↓   ↓
+[1,1,2,2,3,4,4]
+
+code:
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] arr = {1,1,2,2,3,4,4};
+
+        int slow = 0;
+
+        for (int fast = 1; fast < arr.length; fast++) {
+
+            if (arr[slow] != arr[fast]) {
+                slow++;
+                arr[slow] = arr[fast];
+            }
+        }
+
+        System.out.println("Unique elements:");
+
+        for (int i = 0; i <= slow; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+
+
+3)Trigger based pointers
+A trigger-based pointer is a variation of the two-pointer technique where one pointer moves normally, and the second pointer moves only when a specific condition (trigger) is satisfied.
+
+This technique is commonly used in:
+
+Partitioning arrays
+Moving zeros
+Removing duplicates
+Rearranging elements
+[1,2,3,4,5,1]
+our goal is to find a duplication numbers so 
+[1,2,3,4,5,1]
+ ^ ^      
+[1,2,3,4,5,1]
+ ^   ^
+[1,2,3,4,5,1]
+ ^     ^       
+[1,2,3,4,5,1]
+ ^       ^  
+[1,2,3,4,5,1]
+ ^         ^  
+code:
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] arr = {0, 1, 0, 3, 12};
+
+        int j = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] != 0) {   // Trigger condition
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                j++;
+            }
+        }
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
