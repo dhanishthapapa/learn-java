@@ -50,7 +50,7 @@ class Student {
     }
 }
 
-public class Main {
+public class accessmodifier {
     public static void main(String[] args) {
 
         Student s = new Student();

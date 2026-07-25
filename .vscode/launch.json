@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "thro",
+            "request": "launch",
+            "mainClass": "execption_handling.thro",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "finallys",
+            "request": "launch",
+            "mainClass": "execption_handling.finallys",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "catchs",
+            "request": "launch",
+            "mainClass": "execption_handling.catchs",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "encapsulation",
+            "request": "launch",
+            "mainClass": "oopsconcepts.encapsulation",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "Hybridinheritance",
+            "request": "launch",
+            "mainClass": "oopsconcepts.inheritances.Hybridinheritance",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "Multipleinheritance",
+            "request": "launch",
+            "mainClass": "oopsconcepts.inheritances.Multipleinheritance",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "multilevelinheritance",
+            "request": "launch",
+            "mainClass": "oopsconcepts.inheritances.multilevelinheritance",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "singleinheritances",
+            "request": "launch",
+            "mainClass": "oopsconcepts.inheritances.singleinheritances",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "oopsconcepts.Main",

@@ -1,5 +1,9 @@
 package oopsconcepts;
+/*A constructor is a special method that is called 
+automatically when an object is created.
 
+Its main purpose is to initialize (assign values to) 
+the object's variables */
 class Student {
 
     String name;
