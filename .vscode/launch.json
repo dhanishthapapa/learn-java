@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "vectors",
+            "request": "launch",
+            "mainClass": "collection.list.vectors",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "linkedList",
+            "request": "launch",
+            "mainClass": "collection.list.linkedList",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDome",
+            "request": "launch",
+            "mainClass": "collection.list.ArrayListDome",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "collection.list.arrayList",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
             "name": "thro",
             "request": "launch",
             "mainClass": "execption_handling.thro",
