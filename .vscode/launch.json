@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "linkedhash",
+            "request": "launch",
+            "mainClass": "collection.set.linkedhash",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "hashset",
+            "request": "launch",
+            "mainClass": "collection.set.hashset",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "stack",
+            "request": "launch",
+            "mainClass": "collection.list.stack",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
             "name": "vectors",
             "request": "launch",
             "mainClass": "collection.list.vectors",
