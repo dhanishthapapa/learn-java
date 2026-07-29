@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringbuilder",
+            "request": "launch",
+            "mainClass": "string.stringbuilder",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "stringbuffer",
+            "request": "launch",
+            "mainClass": "string.stringbuffer",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "stringmethod",
+            "request": "launch",
+            "mainClass": "string.stringmethod",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "pqueue",
+            "request": "launch",
+            "mainClass": "pqueue",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
             "name": "linkedhash",
             "request": "launch",
             "mainClass": "collection.set.linkedhash",
