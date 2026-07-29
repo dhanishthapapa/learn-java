@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "library",
+            "request": "launch",
+            "mainClass": "filehandling.library",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "school",
+            "request": "launch",
+            "mainClass": "filehandling.school",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "W",
+            "request": "launch",
+            "mainClass": "filehandling.W",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "rw",
+            "request": "launch",
+            "mainClass": "filehandling.rw",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
+            "name": "rw",
+            "request": "launch",
+            "mainClass": "rw",
+            "projectName": "javalearn_6eeadb09"
+        },
+        {
+            "type": "java",
             "name": "stringbuilder",
             "request": "launch",
             "mainClass": "string.stringbuilder",
